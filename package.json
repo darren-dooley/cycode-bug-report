@@ -1,0 +1,11 @@
+{
+  "name": "root-package",
+  "version": "26.7.0",
+  "description": "Root manifest file",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.11.1"
+}
