@@ -1,6 +1,6 @@
 ### Bug Report
 * This project is using `vite@4.5.2`, however, Cycode is incorrectly marking it us using version `4.4.9`.
-* This is because the scanner is not taking into account the overrirde that is in the [./pnpm-workspace.yaml](https://github.com/darren-dooley/cycode-bug-report/blob/main/pnpm-workspace.yaml) file.
+* This is because the scanner is not taking into account the overrirde that is in the [./pnpm-workspace.yaml](https://github.com/darren-dooley/cycode-bug-report/blob/main/pnpm-workspace.yaml) file, as seen here.
 ```
 overrides:
   "vite": "4.5.2"
