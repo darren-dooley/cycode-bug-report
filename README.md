@@ -6,4 +6,4 @@ overrides:
   "vite": "4.5.2"
 ```
 * This override can be verified by checking the `vite` version used in the `pnpm-lock.yaml` file, as seen [here](https://github.com/darren-dooley/cycode-bug-report/blob/main/pnpm-lock.yaml#L428).
-* If a lockfile is detected, I suggest that the scanner use the lockfile as the single source-of-truth for the dependencies in a project.
+* If a lockfile is detected, I suggest that the scanner use the lockfile as the single source-of-truth for the dependencies belonging to packages in the pnpm workspace.
