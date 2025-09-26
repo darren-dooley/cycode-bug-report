@@ -20,7 +20,9 @@ overrides:
 
 ### Evidence
 #### `pnpm ls -r` output:
+<img width="1414" height="418" alt="Screenshot 2025-09-26 at 16 38 39" src="https://github.com/user-attachments/assets/506be882-8aa5-4b26-a643-60f49e2a646f" />
 
 
 #### `cycode scan --scan-type=sca path .` output:
 <img width="2542" height="492" alt="Screenshot 2025-09-26 at 16 18 46" src="https://github.com/user-attachments/assets/32aad0d6-a086-4939-82f2-a042b13454d2" />
+
