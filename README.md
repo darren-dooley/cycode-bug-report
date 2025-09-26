@@ -9,6 +9,18 @@ overrides:
 * If a lockfile exists, the scanner should use it as the primary source for dependencies. This guarantees an accurate list of all resolved dependencies in the pnpm workspace.  
   * Note: Some package.json files in the repository may not be part of the same pnpm workspace, so the scanner should check workspace membership before relying on the lockfile for those packages.
 
+### Steps to Reproduce
+1. Clone this repository
+2. `cd` to the project root
+3. Run `corepack enable & corepack use pnpm@latest-10`
+4. Run `pnpm install`
+5. Run `pnpm ls -r` to verify that version `vite@4.5.2` is listed
+6. Run `cycode scan --scan-type=sca path .`
+6. Observe that Cycode incorretly marks the version as `vite@4.4.9`
+
 ### Evidence
-I have attached a screenshot of the output of Cycode's scan. Cycode is reporting a vulnerability in vite version `4.4.9`, however, this version has been overridden and is not being used by my project.
+#### `pnpm ls -r` output:
+
+
+#### `cycode scan --scan-type=sca path .` output:
 <img width="2542" height="492" alt="Screenshot 2025-09-26 at 16 18 46" src="https://github.com/user-attachments/assets/32aad0d6-a086-4939-82f2-a042b13454d2" />
