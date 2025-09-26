@@ -23,6 +23,5 @@ overrides:
 
 
 #### `cycode scan --scan-type=sca path .` output:
-<img width="2542" height="492" alt="Screenshot 2025-09-26 at 16 18 46" src="https://github.com/user-attachments/assets/32aad0d6-a086-4939-82f2-a042b13454d2" />
-
+<img width="2542" height="492" alt="Screenshot 2025-09-26 at 16 18 46" src="https://github.com/user-attachments/assets/948e5795-d4f6-4c98-be59-c1645e622d4e" />
 
